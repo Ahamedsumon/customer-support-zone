@@ -124,14 +124,6 @@
     "priority": "MEDIUM PRIORITY",
     "status": "Open",
     "createdAt": "2024-02-18"
-  },
-  {
-    "id": 1015,
-    "title": "Unable to Download Purchased File",
-    "description": "Customer purchased a digital product but download link is not working.",
-    "customer": "Henry Lewis",
-    "priority": "HIGH PRIORITY",
-    "status": "Open",
-    "createdAt": "2024-02-20"
   }
 ]
+

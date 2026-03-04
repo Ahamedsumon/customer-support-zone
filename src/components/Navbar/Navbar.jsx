@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar shadow-sm ">
+    <div className="navbar bg-white shadow-sm ">
         <div className="navbar  max-w-500 mx-auto">
         
       <div className="navbar-start flex justify-between w-full">
