@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They have tried resetting their password multiple times but still cannot access the dashboard.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed During Checkout",
+    "description": "Customer reports that their credit card payment fails every time during checkout despite sufficient balance.",
+    "customer": "Emily Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 1003,
+    "title": "Order Not Showing in History",
+    "description": "Customer completed a purchase but the order does not appear in their order history section.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1004,
+    "title": "Unable to Update Profile Information",
+    "description": "Customer is unable to save updated phone number and address in profile settings.",
+    "customer": "Sarah Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1005,
+    "title": "Email Notifications Not Received",
+    "description": "Customer is not receiving order confirmation and promotional emails.",
+    "customer": "David Wilson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1006,
+    "title": "App Crashes on Startup",
+    "description": "Mobile application crashes immediately after launching on Android devices.",
+    "customer": "Olivia Martinez",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": 1007,
+    "title": "Discount Code Not Working",
+    "description": "Customer reports that the provided discount code shows as invalid during checkout.",
+    "customer": "James Anderson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-01"
+  },
+  {
+    "id": 1008,
+    "title": "Slow Website Performance",
+    "description": "Customer experiences significant delays when navigating between pages.",
+    "customer": "Sophia Thomas",
+    "priority": "LOW PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-02-03"
+  },
+  {
+    "id": 1009,
+    "title": "Two-Factor Authentication Issue",
+    "description": "Customer does not receive OTP code required for two-factor authentication login.",
+    "customer": "Daniel Taylor",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-05"
+  },
+  {
+    "id": 1010,
+    "title": "Refund Not Processed",
+    "description": "Customer returned an item but refund has not been credited to their account.",
+    "customer": "Isabella Moore",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-02-08"
+  },
+  {
+    "id": 1011,
+    "title": "Account Locked After Multiple Attempts",
+    "description": "Customer account was locked after multiple failed login attempts and cannot be unlocked.",
+    "customer": "William Jackson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-10"
+  },
+  {
+    "id": 1012,
+    "title": "Image Upload Fails",
+    "description": "Customer cannot upload profile picture; system shows 'Upload Failed' error.",
+    "customer": "Mia White",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-12"
+  },
+  {
+    "id": 1013,
+    "title": "Subscription Cancellation Issue",
+    "description": "Customer attempted to cancel subscription but billing continues.",
+    "customer": "Benjamin Harris",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-02-15"
+  },
+  {
+    "id": 1014,
+    "title": "Incorrect Invoice Amount",
+    "description": "Customer received an invoice with incorrect pricing details.",
+    "customer": "Charlotte Clark",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-18"
+  },
+  {
+    "id": 1015,
+    "title": "Unable to Download Purchased File",
+    "description": "Customer purchased a digital product but download link is not working.",
+    "customer": "Henry Lewis",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-20"
+  }
+]
