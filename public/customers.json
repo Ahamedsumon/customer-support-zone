@@ -14,7 +14,7 @@
     "description": "Customer reports that their credit card payment fails every time during checkout despite sufficient balance.",
     "customer": "Emily Johnson",
     "priority": "HIGH PRIORITY",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2024-01-18"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Customer is not receiving order confirmation and promotional emails.",
     "customer": "David Wilson",
     "priority": "MEDIUM PRIORITY",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2024-01-25"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Customer experiences significant delays when navigating between pages.",
     "customer": "Sophia Thomas",
     "priority": "LOW PRIORITY",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2024-02-03"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Customer returned an item but refund has not been credited to their account.",
     "customer": "Isabella Moore",
     "priority": "HIGH PRIORITY",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2024-02-08"
   },
   {
@@ -113,7 +113,7 @@
     "description": "Customer attempted to cancel subscription but billing continues.",
     "customer": "Benjamin Harris",
     "priority": "HIGH PRIORITY",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2024-02-15"
   },
   {

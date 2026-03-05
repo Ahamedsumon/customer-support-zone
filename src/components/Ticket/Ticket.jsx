@@ -1,11 +1,11 @@
 
 
-const Ticket = ({ticket}) => {
+const Ticket = ({ticket, handleTicketClick, progressStatus}) => {
     const {title, description, status, id, priority, customer, createdAt} = ticket
- 
+    
     return (
         <>
-        <div className="bg-white p-2 rounded-sm shadow">
+        <div onClick={() => handleTicketClick(ticket)} className="bg-white p-2 rounded-sm shadow">
             <div className="flex justify-between items-center">
                 <h2 className="text-xl font-bold text-[#001931]">{title}</h2>
                 <p className=" bg-[#B9F8CF] px-2  rounded-3xl"><span><i className="fa-solid fa-circle text-xs text-[#02A53B] mr-1"></i></span>{status}</p>

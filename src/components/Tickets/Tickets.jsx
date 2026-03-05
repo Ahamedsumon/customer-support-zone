@@ -1,9 +1,21 @@
 import {use} from "react";
 import Ticket from "../Ticket/Ticket";
+import TaskStatus from "../TaskStatus/TaskStatus";
+import ResolveTask from "../TaskStatus/ResolveTask/ResolveTask";
 
-const Tickets = ({coustomerTickets}) => {
+
+const Tickets = ({coustomerTickets, handleTicketClick, ticketTittle, handleCompleteBtn, resolved, progressStatus,}) => {
+//     const [ticketTittle, setTicketTittle] = useState([])
+//     const [counProgress, setCountProgress] = useState(0)
+//     const handleTicketClick = (ticket) =>{
+    
+//     const newTicket = [...ticketTittle, ticket];
+//     setTicketTittle(newTicket)
+// }
+    
     const tickets = use(coustomerTickets)
     console.log(tickets);
+    // const filterTicketById = tickets.filter(ticket => ticket.id !== ticketId)
     return (
         <>
         <div className="flex gap-4 my-5 max-w-500 mx-auto">
@@ -12,21 +24,18 @@ const Tickets = ({coustomerTickets}) => {
 
             </div>
         
-        <div className="max-w-500 mx-auto flex gap-4">
+        <div className="max-w-500 mx-auto flex flex-col lg:flex-row gap-4">
             
-            <div className="w-9/12 grid grid-cols-2 gap-2">
+            <div className="lg:w-9/12 grid lg:grid-cols-2 gap-2">
                 {
-                    tickets.map(ticket => <Ticket key={ticket.id} ticket={ticket}></Ticket>)
+                    tickets.map(ticket => <Ticket key={ticket.id} ticket={ticket} handleTicketClick={handleTicketClick} progressStatus={progressStatus}></Ticket>)
                 }
                 
             </div>
-            <div className="w-3/12">
-
-                <h2 className="text-[#627382]">Select a ticket to add Task Status</h2>
-                <div>
-                    <h2 className="text-2xl my-4 text-[#34485A] font-semibold">Resolved Task</h2>
-                    <p>No resolved task yet</p>
-                </div>
+            <div>
+                <TaskStatus ticketTittle={ticketTittle} handleCompleteBtn={handleCompleteBtn}></TaskStatus>
+                <ResolveTask resolved={resolved}></ResolveTask>
+                
             </div>
         </div>
         </>
