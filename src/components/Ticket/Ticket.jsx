@@ -1,6 +1,6 @@
 
 
-const Ticket = ({ticket, handleTicketClick, progressStatus}) => {
+const Ticket = ({ticket, handleTicketClick}) => {
     const {title, description, status, id, priority, customer, createdAt} = ticket
     
     return (
