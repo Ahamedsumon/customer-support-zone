@@ -1,16 +1,18 @@
-# React + Vite
+Question 1: What is JSX, and why is it used?
+Answer: JSX stands for Javascript HML it is a syntax extension for Javascript that let you write html inside javascript, JSX is used to make UI in react more reuseable, redable and easier to write.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Question 2: What is the difference between State and Props?
+Answer: State managed data inside components and can change over time it can toggle and Props are input passed from parent component to a child components to share data and props are read only we can not change by the child.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+Question 3: What is the useState hook, and how does it work?
+Answer: The useState hook allows a functional component to store and update state and triggering re-renders when the state changes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Question 4: How can you share state between components in React?
+Answer: several way we can share state most common is lifting state by props
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Question 5: How is event handling done in React?
+Answer: use camelCase instead of lowercase in events, pass function reference (onClcik={handleClick}) etc.

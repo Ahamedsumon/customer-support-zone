@@ -2,7 +2,7 @@ import vectorForCard1 from "../../assets/vector1.png"
 
 
 const ResolvedCard = ({resolved}) => {
-  console.log(resolved);
+ 
     return (
          <div className=" bg-linear-to-l font-bold from-[#00827A] to-[#54CF68] flex items-center justify-between  text-center text-white rounded-lg">
                  <div>

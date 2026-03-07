@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="navbar-start flex justify-between w-full">
         <a className="text-xl cursor-pointer">CS — Ticket System</a>
         <div className="dropdown ">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden mr-5">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden mr-7">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

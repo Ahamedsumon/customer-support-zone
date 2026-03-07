@@ -1,7 +1,7 @@
 
 
 const ResolveTask = ({resolved}) => {
-    console.log(resolved);
+
     return (
         <div>
             <div>

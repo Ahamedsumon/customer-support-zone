@@ -4,7 +4,7 @@ import TaskStatus from "../TaskStatus/TaskStatus";
 import ResolveTask from "../TaskStatus/ResolveTask/ResolveTask";
 
 
-const Tickets = ({coustomerTickets, handleTicketClick, ticketTittle, handleCompleteBtn, resolved, progressStatus,}) => {
+const Tickets = ({coustomerTickets, handleTicketClick, ticketTittle, handleCompleteBtn, resolved, progressStatus, ticketsId, ticketStatus}) => {
 //     const [ticketTittle, setTicketTittle] = useState([])
 //     const [counProgress, setCountProgress] = useState(0)
 //     const handleTicketClick = (ticket) =>{
@@ -13,8 +13,10 @@ const Tickets = ({coustomerTickets, handleTicketClick, ticketTittle, handleCompl
 //     setTicketTittle(newTicket)
 // }
     
+     
     const tickets = use(coustomerTickets)
-    console.log(tickets);
+    const filterTickets = tickets.filter(ticket => !ticketsId.includes(ticket.id));
+  
     // const filterTicketById = tickets.filter(ticket => ticket.id !== ticketId)
     return (
         <>
@@ -28,7 +30,7 @@ const Tickets = ({coustomerTickets, handleTicketClick, ticketTittle, handleCompl
             
             <div className="lg:w-9/12 grid lg:grid-cols-2 gap-2">
                 {
-                    tickets.map(ticket => <Ticket key={ticket.id} ticket={ticket} handleTicketClick={handleTicketClick} progressStatus={progressStatus}></Ticket>)
+                    filterTickets.map(ticket => <Ticket key={ticket.id} ticket={ticket} handleTicketClick={handleTicketClick} progressStatus={progressStatus} ticketStatus={ticketStatus}></Ticket>)
                 }
                 
             </div>

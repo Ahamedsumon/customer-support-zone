@@ -1,7 +1,11 @@
 
 
-const Ticket = ({ticket, handleTicketClick}) => {
+
+
+const Ticket = ({ticket, handleTicketClick, }) => {
+    
     const {title, description, status, id, priority, customer, createdAt} = ticket
+
     
     return (
         <>
@@ -14,7 +18,7 @@ const Ticket = ({ticket, handleTicketClick}) => {
             <div className="flex justify-between">
                 <div className="flex gap-5">
                     <p className="text-[#627382] text-sm">#{id}</p>
-                    <p className="text-[#F83044] text-sm font-bold">{priority}</p>
+                    <p className={`${priority === "HIGH PRIORITY" ? "text-[#F83044]": priority === "MEDIUM PRIORITY" ? "text-[#FEBB0C]" : "text-[#a7b431]"} text-sm font-bold`}>{priority}</p>
                 </div>
                 <div className="flex gap-5">
                     <h3 className="text-[#627382] text-sm">{customer}</h3>
