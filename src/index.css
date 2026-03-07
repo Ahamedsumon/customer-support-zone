@@ -25,9 +25,3 @@
 
 
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #F5F5F5;
-  }
-}
